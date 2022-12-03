@@ -3,12 +3,12 @@
 
 let number = 13;
 for(let i=1;i<=13;i++){
-if(number[i]%2===0){
+if(number[i]%2==0){
  count++; 
 }
 }
 
-if(count===2){
+if(count==2){
   console.log("it is prime number")
 }
 else{
@@ -17,16 +17,3 @@ else{
 
 
 
-//Problem 2 : Check whether a string is palindrome or not.
-
-let string="apple"
-let flag=false;
-for(let i=string.length-1;i<=0;i--){
- flag=true; 
-}
-if (flag===true){
-  console.log("yes string is palindrome")
-}
-else{
-  console.log("No string is palindrome")
-}
